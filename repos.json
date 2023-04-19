@@ -1,3 +1,41 @@
 {
-    "repos": []
+    "repos": [
+        {
+            "repo": "https://github.com/selene-devs/android_device_xiaomi_selene.git",
+            "branch": "lineage-20",
+            "dir": "device/xiaomi/selene",
+            "before_sync": true
+          },
+          {
+            "repo": "https://github.com/selene-devs/android_vendor_xiaomi_selene.git",
+            "branch": "lineage-20",
+            "dir": "vendor/xiaomi/selene",
+            "before_sync": true
+          },
+          {
+            "repo": "https://github.com/selene-devs/android_kernel_xiaomi_selene.git",
+            "branch": "lineage-20",
+            "dir": "kernel/xiaomi/selene",
+            "before_sync": true
+          },
+          {
+            "repo": "https://github.com/lineageos/android_device_mediatek_sepolicy_vndr",
+            "branch": "lineage-20",
+            "dir": "device/mediatek/sepolicy_vndr",
+            "before_sync": true
+          },
+          {
+            "repo": "https://github.com/selene-devs/android_hardware_mediatek",
+            "branch": "lineage-20",
+            "dir": "hardware/mediatek",
+            "before_sync": true
+          },
+          {
+            "repo": "https://github.com/PixelExperience/hardware_xiaomi.git",
+            "branch": "thirteen",
+            "dir": "hardware/xiaomi",
+            "before_sync": true
+          }
+       
+    ]
 }
