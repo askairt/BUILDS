@@ -3,9 +3,9 @@ DEVICE="selene"
 ROM_NAME="LineageOS"
 
 # Required: git username
-GIT_NAME="askairt"
+GIT_NAME="ROMBUILDER"
 # Required: git email
-GIT_EMAIL="askairt@gmail.com"
+GIT_EMAIL="rom-builder@rest.eu.org"
 
 # Required: Personal Access Token from GitHub with permissions repo, admin:repo_hook, user
 # Better set it as a secret in your GitHub repo settings
