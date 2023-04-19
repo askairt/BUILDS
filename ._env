@@ -41,7 +41,7 @@ RELEASE_OUT_DIR="out/target/product/$DEVICE"
 # PRE_SETUP_SOURCE_COMMAND=""
 
 # Required:
-SETUP_SOURCE_COMMAND=""
+SETUP_SOURCE_COMMAND="repo init -u https://github.com/LineageOS/android.git -b lineage-20.0 --git-lfs"
 
 # Optional: If you have any post command to run after setting up source
 # POST_SETUP_SOURCE_COMMAND=""
@@ -50,7 +50,7 @@ SETUP_SOURCE_COMMAND=""
 # PRE_SYNC_SOURCE_COMMAND=""
 
 # Required:
-SYNC_SOURCE_COMMAND=""
+SYNC_SOURCE_COMMAND="repo sync -c -j$(nproc --all) --force-sync --no-clone-bundle --no-tags --optimized-fetch --prune"
 
 # Optional: If you have any post command to run after syncing source
 # POST_SYNC_SOURCE_COMMAND=""
